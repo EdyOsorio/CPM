@@ -1,12 +1,12 @@
 {
   "db": {
-    "host": "localhost",
+    "host": "us-cdbr-east-02.cleardb.com",
     "port": 3306,
     "url": "",
-    "database": "dbcpm_app",
-    "password": "",
+    "database": "heroku_84a8ec4e16821fc",
+    "password": "9ead41d6",
     "name": "db",
-    "user": "root",
+    "user": "b489251aefcc4b",
     "connector": "mysql"
   },
   "Email": {
