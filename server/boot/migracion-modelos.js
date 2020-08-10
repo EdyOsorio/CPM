@@ -4,7 +4,7 @@ module.exports = function(app) {
   var ds = app.dataSources.db;
   // eslint-disable-next-line max-len
   var dbTables = ['User', 'AccessToken', 'ACL', 'RoleMapping', 'Role', 'categoria', 'cliente',
-    'detallefactura', 'factura', 'pago', 'pedido', 'producto', 'direccionCliente']; // En este array pondremos los nombres de los modelos
+    'detallefactura', 'factura', 'pago', 'pedido', 'producto', 'direccionCliente', 'usuario']; // En este array pondremos los nombres de los modelos
   if (dbTables.length !== 0) {
     ds.automigrate(dbTables, function(err) {
       if (err) throw err;
